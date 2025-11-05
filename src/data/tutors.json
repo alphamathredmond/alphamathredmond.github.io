@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ryan-chhabra",
+    "name": "Ryan Chhabra",
+    "role": ["Founder", "Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Senior",
+    "bio": "I have a strong passion for computer science and math. In my free time, I enjoy hanging out with friends, watching Formula 1, and driving.",
+    "links": { "image": "ryan.jpg" }
+  },
+  {
+    "id": "tyler-chen",
+    "name": "Tyler Chen",
+    "role": ["Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Senior",
+    "bio": "I really enjoy math, chemistry, and physics. In my free time, I like playing badminton, gaming, and reading.",
+    "links": { "image": "tyler.jpg" }
+  },
+  {
+    "id": "ihita-gupta",
+    "name": "Ihita Gupta",
+    "role": ["Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Sophomore",
+    "bio": "I have a strong passion for math and love tutoring other passionate students. In my free time, I enjoy baking, playing flute, and reading.",
+    "links": { "image": "sundew.jpg" }
+  },
+  {
+    "id": "aakash-ghosh",
+    "name": "Aakash Ghosh",
+    "role": ["Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Senior",
+    "bio": "In my free time, I enjoy playing and making video games, calisthenics, singing, and tutoring math.",
+    "links": { "image": "aakash.jpg" }
+  },
+  {
+    "id": "khushie-verma",
+    "name": "Khushie Verma",
+    "role": ["Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Junior",
+    "bio": "In my free time, I enjoy watching Formula 1, watching food videos, cooking, and reading.",
+    "links": { "image": "khushie.jpg" }
+  }
+]
