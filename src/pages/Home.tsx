@@ -30,18 +30,18 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 {/* Primary gradient button */}
                 <Link
-                  to="/programs"
+                  to="/competitions"
                   className="group relative inline-flex items-center rounded-2xl px-7 py-3.5 bg-blue-600 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] overflow-hidden"
                 >
-                  <span className="relative z-10">Explore Programs</span>
+                  <span className="relative z-10">Explore Competitions</span>
                 </Link>
 
                 {/* Secondary outline button */}
                 <Link
-                  to="/contact"
+                  to="/team"
                   className="group inline-flex items-center rounded-2xl px-7 py-3.5 border-2 border-blue-600/20 bg-white/70 backdrop-blur text-gray-800 hover:border-blue-600/40 hover:bg-white transition-all"
                 >
-                  <span>Contact Us</span>
+                  <span>Meet Our Team</span>
                 </Link>
               </div>
             </FloatIn>

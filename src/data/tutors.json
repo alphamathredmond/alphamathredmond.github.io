@@ -10,7 +10,7 @@
   {
     "id": "tyler-chen",
     "name": "Tyler Chen",
-    "role": ["Tutor"],
+    "role": ["Co-Founder", "Tutor"],
     "school": "Tesla STEM High School",
     "grade": "Senior",
     "links": { "image": "tyler.jpg" }
@@ -62,6 +62,14 @@
     "school": "Skyline High School",
     "grade": "Freshman",
     "links": { "image": "lahari.avif" }
+  },
+  {
+    "id": "julien-wang",
+    "name": "Julien Wang",
+    "role": ["Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Senior",
+    "links": { "image": "julien.jpg" }
   }
   
 ]

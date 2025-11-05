@@ -1,12 +1,12 @@
 [
   {
-    "id": "mic-gr4-6",
-    "title": "Math is Cool — Grades 4–6",
+    "id": "mic-gr3-5",
+    "title": "Math is Cool — Grades 3–5",
     "blurb": "Contest training covering mental math, MC, FRQ, and College Bowl.",
-    "rounds": ["Mental Math", "Individual FRQ", "Team MC", "Team FRQ", "College Bowl"],
+    "rounds": ["Mental Math", "Individual", "Team MCQ", "Team FRQ", "College Bowl (Fast Paced Verbal)"],
     "schedule": [{ "day": "Sat", "time": "10:00–11:30", "tz": "PT" }],
-    "gradeMin": 4,
-    "gradeMax": 6,
+    "gradeMin": 3,
+    "gradeMax": 5,
     "price": 0
   }
 ]

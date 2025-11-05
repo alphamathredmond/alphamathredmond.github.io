@@ -4,10 +4,9 @@ import Logo from "./Logo";
 export default function Header() {
   const items = [
     { to: "/", label: "Home" },
-    { to: "/programs", label: "Programs" },
+    { to: "/competitions", label: "Competitions" },
     { to: "/team", label: "Team" },
-    { to: "/resources", label: "Resources" },
-    { to: "/about", label: "About" },
+    { to: "/donate", label: "Donate" },
   ];
 
   return (
@@ -18,9 +17,9 @@ export default function Header() {
         </div>
 
         {/* Center pill navigation */}
-        <nav className="hidden md:flex items-center justify-center">
+        <nav className="hcoidden md:flex items-center justify-center">
           <div className="relative mx-6 rounded-full border border-gray-200/70 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm px-2 py-1">
-            <ul className="flex items-center gap-1 text-sm font-medium">
+            <ul className="flex items-center gap-1 text-base font-medium">
               {items.map((it) => (
                 <li key={it.to}>
                   <NavLink

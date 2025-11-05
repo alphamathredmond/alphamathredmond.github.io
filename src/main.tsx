@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      { path: "programs", element: <Programs /> },
-      { path: "programs/:id", element: <ProgramDetail /> },
+      { path: "competitions", element: <Programs /> },
+      { path: "competitions/:id", element: <ProgramDetail /> },
       { path: "team", element: <Team /> },
       { path: "donate", element: <Donate /> },
       { path: "join", element: <Join /> },
