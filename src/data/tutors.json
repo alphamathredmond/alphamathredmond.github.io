@@ -5,7 +5,6 @@
     "role": ["Founder", "Tutor"],
     "school": "Tesla STEM High School",
     "grade": "Senior",
-    "bio": "I have a strong passion for computer science and math. In my free time, I enjoy hanging out with friends, watching Formula 1, and driving.",
     "links": { "image": "ryan.jpg" }
   },
   {
@@ -14,7 +13,6 @@
     "role": ["Tutor"],
     "school": "Tesla STEM High School",
     "grade": "Senior",
-    "bio": "I really enjoy math, chemistry, and physics. In my free time, I like playing badminton, gaming, and reading.",
     "links": { "image": "tyler.jpg" }
   },
   {
@@ -23,7 +21,6 @@
     "role": ["Tutor"],
     "school": "Tesla STEM High School",
     "grade": "Sophomore",
-    "bio": "I have a strong passion for math and love tutoring other passionate students. In my free time, I enjoy baking, playing flute, and reading.",
     "links": { "image": "sundew.jpg" }
   },
   {
@@ -32,7 +29,6 @@
     "role": ["Tutor"],
     "school": "Tesla STEM High School",
     "grade": "Senior",
-    "bio": "In my free time, I enjoy playing and making video games, calisthenics, singing, and tutoring math.",
     "links": { "image": "aakash.jpg" }
   },
   {
@@ -41,7 +37,31 @@
     "role": ["Tutor"],
     "school": "Tesla STEM High School",
     "grade": "Junior",
-    "bio": "In my free time, I enjoy watching Formula 1, watching food videos, cooking, and reading.",
-    "links": { "image": "khushie.jpg" }
+    "links": { "image": "khushie3.jpeg" }
+  },
+  {
+  "id": "chinmayi-buddhavarapu",
+  "name": "Chinmayi Buddhavarapu",
+  "role": ["Tutor"],
+  "school": "Tesla STEM High School",
+  "grade": "Junior",
+  "links": { "image": "chinmayi.jpeg" }
+  },
+  {
+    "id": "rishi-jasuja",
+    "name": "Rishi Jasuja",
+    "role": ["Tutor"],
+    "school": "Lake Washington High School",
+    "grade": "Freshman",
+    "links": { "image": "rishi.jpeg" }
+  },
+  {
+    "id": "lahari-ganti",
+    "name": "Lahari Ganti",
+    "role": ["Tutor"],
+    "school": "Skyline High School",
+    "grade": "Freshman",
+    "links": { "image": "lahari.avif" }
   }
+  
 ]

@@ -47,7 +47,9 @@ export default function Team() {
                   <img
                     src={resolveImage(t.links.image)}
                     alt={t.name}
-                    className="h-48 w-48 rounded-full object-cover ring-2 ring-blue-100"
+                    className={`h-48 w-48 rounded-full object-cover ring-2 ring-blue-100 ${
+                      t.id === 'chinmayi-buddhavarapu' ? 'object-[center_60%]' : ''
+                    }`}
                     onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                   />
                 ) : (

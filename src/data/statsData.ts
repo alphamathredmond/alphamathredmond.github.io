@@ -15,7 +15,7 @@ export const statsData: StatItem[] = [
     description: "Students who have benefited from our programs"
   },
   { 
-    title: "Partner Schools",
+    title: "Schools Reached",
     maxNumber: 11,
     suffix: "+",
     description: "Schools we've partnered with"
@@ -27,9 +27,9 @@ export const statsData: StatItem[] = [
     suffix: "+",
   },
   { 
-    title: "Tutors",
+    title: "Active Tutors",
     maxNumber: 10,
-    suffix: "+",
+    suffix: "",
     description: "Our average rating from students and parents"
   }
 ];
