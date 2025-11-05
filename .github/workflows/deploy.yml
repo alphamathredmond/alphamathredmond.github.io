@@ -1,5 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Build and deploy the Alpha Math site to GitHub Pages
+name: Deploy Alpha Math
 
 on:
   # Runs on pushes targeting the default branch
@@ -38,8 +38,10 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Build
+      - name: Build site
         run: npm run build
+      - name: Create SPA fallback
+        run: cp dist/index.html dist/404.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
