@@ -3,15 +3,17 @@ import FloatIn from "../components/FloatIn";
 export default function Donate() {
   return (
     <section className="container-std py-16">
-      <FloatIn delay={0}>
-        <div className="max-w-2xl mx-auto text-center mb-10">
+      <div className="max-w-2xl mx-auto text-center mb-10">
+        <FloatIn delay={0}>
           <h1 className="text-6xl md:text-7xl font-bold tracking-tight text-gray-900">Donate</h1>
+        </FloatIn>
+        <FloatIn delay={100}>
           <p className="mt-6 text-xl text-gray-600 max-w-2xl mx-auto">
             Donations are tax-deductible to the extent allowed by law. Alpha Math is a fiscally
             sponsored project of Junior Asha, Asha for Education, Seattle.
           </p>
-        </div>
-      </FloatIn>
+        </FloatIn>
+      </div>
 
       <FloatIn delay={150}>
         <div className="grid md:grid-cols-2 gap-10">
