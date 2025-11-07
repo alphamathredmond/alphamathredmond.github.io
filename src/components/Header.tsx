@@ -19,13 +19,13 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-transparent">
-      <div className="container-std flex h-16 items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
+      <div className="container-std relative flex h-16 items-center justify-between gap-4">
+        <div className="flex items-center gap-3 md:gap-4">
           <Logo />
         </div>
 
         {/* Desktop navigation */}
-        <nav className="hidden md:flex items-center justify-center">
+        <nav className="hidden md:flex items-center justify-center absolute left-1/2 -translate-x-1/2">
           <div className="relative mx-6 rounded-full border border-gray-200/70 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm px-2 py-1">
             <ul className="flex items-center gap-1 text-base font-medium">
               {items.map((it) => (
