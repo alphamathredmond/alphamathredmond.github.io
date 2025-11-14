@@ -51,7 +51,22 @@ export default function Home() {
           <FloatIn delay={500}>
             <Statistics />
           </FloatIn>
+          <FloatIn delay={600}>
+            <div className="mt-12 text-center">
+              <a
+                href="https://www.lwsd.org/services/communications/news-and-stories/news-details/~board/students-and-schools/post/doing-the-math-mann-elementary-math-club-shines-with-support-from-tesla-stem-mentors"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+              >
+                <span className="text-xs uppercase tracking-[0.2em] text-white/80">
+                  featured
+                </span>
+                Recognized by LWSD
+              </a>
             </div>
+          </FloatIn>
+        </div>
       </section>
     </>
   );
