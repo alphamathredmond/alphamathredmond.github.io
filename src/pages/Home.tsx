@@ -3,10 +3,27 @@ import { MapPin } from "lucide-react";
 import Tag from "../components/Tag";
 import FloatIn from "../components/FloatIn";
 import { Statistics } from "../components/Statistics";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
     <>
+      {/* Top Ribbon */}
+      <div className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-4 shadow-md">
+        <a
+          href="https://www.lwsd.org/services/communications/news-and-stories/news-details/~board/students-and-schools/post/doing-the-math-mann-elementary-math-club-shines-with-support-from-tesla-stem-mentors"
+          target="_blank"
+          rel="noreferrer"
+          className="container-std mx-auto flex items-center justify-center gap-2 text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
+        >
+          <span className="uppercase text-base tracking-[0.25em] opacity-80">
+            Featured
+          </span>
+          <span className="text-base font-semibold">Recognized by LWSD</span>
+          <ArrowUpRight className="w-5 h-5 opacity-90 transition-all duration-200 group-hover:translate-x-0.5" />
+        </a>
+      </div>
+
       <section className="relative py-16 md:py-24">
         <div className="container-std">
           <div className="max-w-3xl mx-auto text-center">
@@ -51,7 +68,7 @@ export default function Home() {
           <FloatIn delay={500}>
             <Statistics />
           </FloatIn>
-          <FloatIn delay={600}>
+          {/* <FloatIn delay={600}>
             <div className="mt-12 text-center">
               <a
                 href="https://www.lwsd.org/services/communications/news-and-stories/news-details/~board/students-and-schools/post/doing-the-math-mann-elementary-math-club-shines-with-support-from-tesla-stem-mentors"
@@ -65,7 +82,7 @@ export default function Home() {
                 Recognized by LWSD
               </a>
             </div>
-          </FloatIn>
+          </FloatIn> */}
         </div>
       </section>
     </>
