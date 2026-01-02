@@ -40,12 +40,12 @@
     "links": { "image": "khushie4.jpg" }
   },
   {
-  "id": "chinmayi-buddhavarapu",
-  "name": "Chinmayi Buddhavarapu",
-  "role": ["Tutor"],
-  "school": "Tesla STEM High School",
-  "grade": "Junior",
-  "links": { "image": "chinmayi.jpeg" }
+    "id": "chinmayi-buddhavarapu",
+    "name": "Chinmayi Buddhavarapu",
+    "role": ["Tutor"],
+    "school": "Tesla STEM High School",
+    "grade": "Junior",
+    "links": { "image": "chinmayi.jpeg" }
   },
   {
     "id": "rishi-jasuja",
@@ -70,6 +70,13 @@
     "school": "Tesla STEM High School",
     "grade": "Senior",
     "links": { "image": "julien.jpg" }
+  },
+  {
+    "id": "arjun-nair",
+    "name": "Arjun Nair",
+    "role": ["Tutor"],
+    "school": "Redmond high school",
+    "grade": "Sophomore",
+    "links": { "image": "arjun.jpeg" }
   }
-  
 ]
