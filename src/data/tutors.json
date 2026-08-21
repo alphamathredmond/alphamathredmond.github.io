@@ -1,82 +1,88 @@
 [
   {
-    "id": "ryan-chhabra",
-    "name": "Ryan Chhabra",
-    "role": ["Founder", "Tutor"],
-    "school": "Tesla STEM High School",
-    "grade": "Senior",
-    "links": { "image": "ryan.jpg" }
-  },
-  {
-    "id": "tyler-chen",
-    "name": "Tyler Chen",
-    "role": ["Co-Founder", "Lead Tutor"],
-    "school": "Tesla STEM High School",
-    "grade": "Senior",
-    "links": { "image": "tyler.jpg" }
-  },
-  {
-    "id": "ihita-gupta",
-    "name": "Ihita Gupta",
-    "role": ["Tutor"],
-    "school": "Tesla STEM High School",
-    "grade": "Sophomore",
-    "links": { "image": "sundew.jpg" }
-  },
-  {
-    "id": "aakash-ghosh",
-    "name": "Aakash Ghosh",
-    "role": ["Tutor"],
-    "school": "Tesla STEM High School",
-    "grade": "Senior",
-    "links": { "image": "aakash.jpg" }
-  },
-  {
-    "id": "khushie-verma",
-    "name": "Khushie Verma",
-    "role": ["Tutor"],
-    "school": "Tesla STEM High School",
-    "grade": "Junior",
-    "links": { "image": "khushie4.jpg" }
-  },
-  {
     "id": "chinmayi-buddhavarapu",
     "name": "Chinmayi Buddhavarapu",
-    "role": ["Tutor"],
-    "school": "Tesla STEM High School",
-    "grade": "Junior",
-    "links": { "image": "chinmayi.jpeg" }
-  },
-  {
-    "id": "rishi-jasuja",
-    "name": "Rishi Jasuja",
-    "role": ["Tutor"],
-    "school": "Lake Washington High School",
-    "grade": "Freshman",
-    "links": { "image": "rishi.jpeg" }
-  },
-  {
-    "id": "lahari-ganti",
-    "name": "Lahari Ganti",
-    "role": ["Tutor"],
-    "school": "Skyline High School",
-    "grade": "Freshman",
-    "links": { "image": "lahari.avif" }
-  },
-  {
-    "id": "julien-wang",
-    "name": "Julien Wang",
-    "role": ["Tutor"],
+    "role": [
+      "President",
+      "Tutor"
+    ],
     "school": "Tesla STEM High School",
     "grade": "Senior",
-    "links": { "image": "julien.jpg" }
+    "links": {
+      "image": "chinmayi.jpeg"
+    }
   },
   {
     "id": "arjun-nair",
     "name": "Arjun Nair",
-    "role": ["Tutor"],
-    "school": "Redmond high school",
+    "role": [
+      "Tutor",
+      "Mann Elementary Lead"
+    ],
+    "school": "Redmond High School",
+    "grade": "Junior",
+    "links": {
+      "image": "arjun.jpeg"
+    }
+  },
+  {
+    "id": "rishi-jasuja",
+    "name": "Rishi Jasuja",
+    "role": [
+      "Tutor"
+    ],
+    "school": "Lake Washington High School",
     "grade": "Sophomore",
-    "links": { "image": "arjun.jpeg" }
+    "links": {
+      "image": "rishi.jpeg"
+    }
+  },
+  {
+    "id": "lahari-ganti",
+    "name": "Lahari Ganti",
+    "role": [
+      "Tutor"
+    ],
+    "school": "Skyline High School",
+    "grade": "Sophomore",
+    "links": {
+      "image": "lahari.avif"
+    }
+  },
+  {
+    "id": "ryan-chhabra",
+    "name": "Ryan Chhabra",
+    "role": [
+      "Founder"
+    ],
+    "school": "University of Washington",
+    "alumni": true,
+    "links": {
+      "image": "ryan.jpg"
+    }
+  },
+  {
+    "id": "tyler-chen",
+    "name": "Tyler Chen",
+    "role": [
+      "Co-Founder"
+    ],
+    "school": "University of Washington",
+    "alumni": true,
+    "links": {
+      "image": "tyler.jpg"
+    }
+  },
+  {
+    "id": "aakash-ghosh",
+    "name": "Aakash Ghosh",
+    "role": [
+      "Tutor"
+    ],
+    "school": "University of Washington",
+    "alumni": true,
+    "links": {
+      "image": "aakash.jpg"
+    }
   }
 ]
